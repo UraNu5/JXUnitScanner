@@ -1,7 +1,9 @@
 About this app:
 Unit Scanner is a XM8 app that will show all units in a 120m radius, it was initially ment for hiding AI (DMS) but also shows players, cars and HMG guns.
 
-Installation:
+Installation: 
+* you need ExAd Core and ExAd XM8 installed for this to work
+you can get them here http://www.exilemod.com/topic/13865-exad-package-of-virtual-garagexm8statsbarhalo-parachuteadmin-eventshackinggrindingvehicle-upgrade/
 
 1. copy the folder JxUnitScanner into ExAdClient\
 2. edit ExAdClient\CfgFunctions.cpp and add #include "JxUnitScanner\CfgFunctions.cpp"
