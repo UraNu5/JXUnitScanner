@@ -1,0 +1,10 @@
+
+	class ExAd_JX
+	{
+		title = "Unit Scanner";
+		controlID = 85100;					//IDC:85100 -> 85200
+		logo = "ExadClient\XM8\Apps\JX\logo.paa";
+		onLoad = "ExAdClient\XM8\Apps\JX\onLoad.sqf";
+		onOpen = "ExAdClient\XM8\Apps\JX\onOpen.sqf";
+		onClose = "ExAdClient\XM8\Apps\JX\onClose.sqf";
+	};
