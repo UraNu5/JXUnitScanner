@@ -21,4 +21,6 @@ Installation:
 5. ingame press 6 go to more apps and select Unit Scanner
 
 
-Thanks:  Janski for making a tutorial on how to create Apps and use the Editor to debug them.
+Thanks: 
+Janski - for making a tutorial on how to create Apps and use the Editor to debug them.
+thats about it..
