@@ -1,5 +1,5 @@
 // created by Jaxx0rr
-params ["_display","_types","_radius","_prefix","_slideClass","_xc","_yc","_mapDivFactorX","_mapDivFactorY","_playerx","_playery","_vposx","_vposy","_log"];
+params ["_display","_types","_radius","_prefix","_slideClass","_xc","_yc","_mapDivFactorX","_mapDivFactorY","_playerx","_playery","_vposx","_vposy","_log","_cs"];
 
 _slideClass = "ExAd_JX";
 
@@ -51,6 +51,12 @@ _vi = 1;
 		};
 
 		//hint format ["_playerx:%1 _vposx:%2 _xc:%3", _playerx, _vposx, _xc];
+		
+		_cs = ([_objClass, 0, 9] call BIS_fnc_trimString);
+		
+		if (_cs == "RyanZombie") then {
+			_prefix = "picZ";
+		};
 
 		_pname = format [_prefix+"%1", _vi];
 		if (_vi <= 30) then {

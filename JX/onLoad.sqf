@@ -33,13 +33,15 @@ _slideClass = "ExAd_JX";
 [_display,_slide,([_slideClass,"picBg"] call ExAd_fnc_getNextIDC),[0, 1.5 * _pH, (_leftColW + _rightCol + 5.3) * _pW, 16 * _pH],"ExAdClient\XM8\Apps\JX\radar.paa",[1,1,1,1],false,false,""] call ExAd_fnc_createPicture;
 
 _i = 1;
-while {_i <= 30} do {
+while {_i <= 20} do {
 	_pname = format ["picM%1", _i];
 	[_display,_slide,([_slideClass,_pname] call ExAd_fnc_getNextIDC), [0, 0, _isw, _ish], "ExAdClient\XM8\Apps\JX\icon_man.paa", [0,0,0,0], false, false, ""] call ExAd_fnc_createPicture;
 	_pname = format ["picC%1", _i];
 	[_display,_slide,([_slideClass,_pname] call ExAd_fnc_getNextIDC), [0, 0, _isw, _ish], "ExAdClient\XM8\Apps\JX\icon_car.paa", [0,0,0,0], false, false, ""] call ExAd_fnc_createPicture;
 	_pname = format ["picH%1", _i];
 	[_display,_slide,([_slideClass,_pname] call ExAd_fnc_getNextIDC), [0, 0, _isw, _ish], "ExAdClient\XM8\Apps\JX\icon_hmg.paa", [0,0,0,0], false, false, ""] call ExAd_fnc_createPicture;
+	_pname = format ["picZ%1", _i];
+	[_display,_slide,([_slideClass,_pname] call ExAd_fnc_getNextIDC), [0, 0, _isw, _ish], "ExAdClient\XM8\Apps\JX\icon_zom.paa", [0,0,0,0], false, false, ""] call ExAd_fnc_createPicture;
 	_i =_i + 1;
 };
 
