@@ -31,7 +31,7 @@ _vi = 1;
 	_objClass = if(typeName _x isEqualTo "ARRAY") then{_x select 1} else {typeOf _x};
 	_tposition = format [" POS:%1,%2,%3", getPos _x select 0, getPos _x select 1, getPos _x select 2];
 
-	if (_objClass != "Exile_Unit_Player") then {
+	if (_objClass != "Exile_Unit_Player" && _objClass != "Salema_F" && _objClass != "Ornate_random_F" && _objClass != "Mackerel_F" && _objClass != "Tuna_F" && _objClass != "Mullet_F" && _objClass != "CatShark_F" && _objClass != "Rabbit_F" && _objClass != "Snake_random_F" && _objClass != "Turtle_F" && _objClass != "Hen_random_F" && _objClass != "Cock_random_F" && _objClass != "Cock_white_F" && _objClass != "Goat_random_F" && _objClass != "Sheep_random_F") then {
 
 		_log = _log + _objClass + " | ";
 
